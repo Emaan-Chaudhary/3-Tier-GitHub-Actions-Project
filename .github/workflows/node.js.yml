@@ -118,7 +118,7 @@ jobs:
         with:
           context: ./api  
           push: true
-          tags: adijaiswal/backend:latest
+          tags: emaanchaudhary/backend:latest
           file: ./api/Dockerfile
 
   build_frontend_docker_image_and_push:
@@ -142,5 +142,5 @@ jobs:
         with:
           context: ./client
           push: true
-          tags: adijaiswal/frontend:latest
+          tags: emaanchaudhary/frontend:latest
           file: ./client/Dockerfile
